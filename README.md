@@ -7,19 +7,19 @@ The application was developed with the react framework and has a ``web`` and ``m
 PearTunes features:
 
 ```
-▪️ Login with email and attach your photo
+▪️ Login with email and upload your photo
 ▪️ Search by band or artist, view songs from selected album
 ▪️ Play a preview of songs
-▪️ Favorite and unfavorite songs
+▪️ Favorite or unfavorite songs
 ▪️ View and edit the user's profile.
 ```
 
-Application Skills:
+Technologies used:
 
 ```
-▪️ Request and consumption of data from an API
+▪️ Request and consumption of data from API's
 ▪️ Lifecycles of a React component
-▪️ SetState function to ensure that the code will only be executed after the state is updated
+▪️ React States 
 ▪️ BrowserRouter Component
 ▪️ Creating routes, mapping the URL path
 ▪️ Use of Swicth and React Router
