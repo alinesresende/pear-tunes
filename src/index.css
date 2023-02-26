@@ -372,6 +372,7 @@ code {
     padding-bottom: 20px;
     justify-content: center;
     padding: 15px;
+    height: min-content;
 }
 
 .header-image-container {
@@ -634,7 +635,7 @@ input[type ='checkbox']:checked+label>svg {
 
   .favorites-container {
     margin-left: 0;
-    height: calc(100vh - 240px - 70px);
+    height: calc(100vh - 240px);
     overflow: auto;
   }
 
@@ -646,6 +647,7 @@ input[type ='checkbox']:checked+label>svg {
     bottom: 0;
     position: fixed;
     width: 100%;
+    z-index: 999;
   }
 
   .header-content {
@@ -717,7 +719,7 @@ input[type ='checkbox']:checked+label>svg {
     grid-template-columns: repeat(2, 160px);
     gap: 10px 15px;
     justify-content: center;
-    height: calc(100vh - 269px - 70px);
+    height: calc(100vh - 269px);
     overflow: auto;
   }
 
@@ -727,7 +729,7 @@ input[type ='checkbox']:checked+label>svg {
 }
   .profile-container {
     padding-left: 0;
-    height: calc(100vh - 280px - 70px);
+    height: calc(100vh - 280px);
     margin: auto;
     overflow: auto;
 }
@@ -749,14 +751,14 @@ input[type ='checkbox']:checked+label>svg {
 
   .profiledit-container {
     padding-left: 0;
-    height: calc(100vh - 280px - 70px);
+    height: calc(100vh - 280px);
     margin: auto;
     overflow: auto;
     width: min-content;
   }
 
   .space-search {
-    height: calc(100vh - 200px - 70px);
+    height: calc(100vh - 200px);
   }
 
   .upload-button {
