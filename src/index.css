@@ -643,8 +643,8 @@ input[type ='checkbox']:checked+label>svg {
  }
 
   .header-container {
-    position: sticky;
-    top: 90%;
+    bottom: 0;
+    position: fixed;
     width: 100%;
   }
 
