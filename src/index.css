@@ -630,7 +630,8 @@ input[type ='checkbox']:checked+label>svg {
   }
 
   .musicCard-container {
-    grid-template-columns: 88px 200px 14px;
+    grid-template-columns: 88px 196px 24px;
+    place-items: center;
   }
 
   .favorites-container {
