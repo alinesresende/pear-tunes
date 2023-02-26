@@ -59,7 +59,7 @@ class ProfileEdit extends React.Component {
     this.setState({
       isLoading: true,
     });
-    if (Object.keys(user.image).lenght !== 0) {
+    if (user.image?.name) {
       const reader = new FileReader();
       reader.addEventListener('load', () => {
         localStorage.setItem('profileImage', reader.result);

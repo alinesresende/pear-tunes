@@ -61,14 +61,14 @@ class Header extends Component {
           >
             { thisMobile
               ? (
-                <div>
+                <>
                   <img
                     className="logo-header-mobile"
                     src={ PearLogoMobile }
                     alt="logo pear"
                   />
                   Home
-                </div>
+                </>
               )
               : <img src={ PearLogoWeb } className="logo-header-web" alt="logo pear" />}
           </Link>
