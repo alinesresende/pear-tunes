@@ -1,0 +1,768 @@
+*{ 
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-container {
+  display: flex;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  height: 100vh;
+  padding: 40px 0px 30px 0px;
+  height: calc(100vh - 70px);
+  position: sticky;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  min-width: 100px;
+}
+
+
+.link-decoration {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icons-style:hover {
+  font-weight: 500;
+}
+
+.title-decoration {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.img-search {
+  height: 15px;
+  width: 15px;
+}
+
+.img-profile {
+  height: 15px;
+  width: 15px;
+}
+
+.img-favorites {
+  height: 15px;
+  width: 15px;
+}
+
+.title-styles {
+  background-color: white;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.page-login {
+  background-image: url('./icons/logo-background.jpg');
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;
+  background-position: 50%;
+}
+
+.left-container {
+  display: grid;
+  justify-content: center;
+  width: 60%;
+  padding-top: 123px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    width: 40%;
+    padding-top: 123px;
+    background-color: whitesmoke;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: calc(100% - 123px);
+}
+
+.style-logo {
+  width: 250px;
+  height: 300px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.title-login {
+  text-align: center;
+  padding-left: 45px;
+  padding-top: 10px;
+}
+
+.welcome-container {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.upload-image {
+  display: none;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 35px;
+  border-radius: 12px;
+  padding: 2px;
+  border: 1px black;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.upload-button:hover {
+  background-color: #ccc;
+}
+
+.upload-button:placeholder {
+  text-align: center;
+}
+
+.img-preview {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.size-login-button {
+  width: 300px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 0;
+  border: 1px black;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+}
+
+.size-login-button::placeholder {
+  text-align: center; 
+  color: black;
+}
+
+.login-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0;
+  border: 1px black;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  background-color: #efee20;
+  margin-top: 10px;
+}
+
+.login-button::placeholder {
+  text-align: center; 
+}
+
+.login-button:hover {
+  background-color: #c8cc06;
+}
+
+.login-button {
+  text-decoration: none;
+  color: black;
+}
+
+.header-default {
+  background-image: url('./icons/header-background.jpg');
+  height: 250px;
+  width: calc(100vw - 220px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position-y: -231px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.logo-header-web {
+  height: 90px;
+}
+
+.favorites-container {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.search-container {
+  display: flex;
+  gap: 5px;
+} 
+
+.size-input-search {
+  width: 300px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 0;
+  border: 1px black;
+  text-align: center;
+  color: black;
+}
+
+.size-input-search:placeholder {
+  text-align: center;
+}
+
+.size-button-search {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 0;
+  border: 1px black;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  background-color: #efee20;
+  color: black;
+}
+
+.size-button-search:hover {
+  background-color: #c8cc06;
+}
+
+
+.result-artist {
+  text-align: center;
+  padding: 50px;
+}
+
+.searchCard-container {
+  display: grid;
+  grid-template-columns: repeat(4, 210px);
+  gap: 20px 25px;
+  justify-content: center;
+}
+
+.artist-container {
+  background-color: whitesmoke;
+}
+
+.albumCard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  transition: all 0.25s ease;
+}
+
+.albumCard-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  scale: 1.1;
+}
+
+.album-card {
+  display: grid;
+  gap: 20px;
+  width: fit-content;
+  padding-left: 500px;
+  padding-top: 80px;
+}
+
+.album-image {
+  height: 175px;
+  width: 175px;
+  border-radius: 12px;
+}
+
+.album-img {
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: calc(50% - 240px/2 - 193px);
+  top: calc(50% - 260px/2 - 60px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.album-title {
+  position: absolute;
+  height: 30px;
+  left: calc(50% - 260px/2 + 40px);
+  top: calc(50% - 30px/2 - 160px);
+  background-color: white;
+  border-radius: 12px;
+  padding: 2px;
+}
+
+.album-artist {
+  position: absolute;
+  height: 21px;
+  left: calc(50% - 260px/2 + 40px);
+  top: calc(50% - 40px/2 - 120px);
+  background-color: whitesmoke;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.link-albumcard {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.album-subtitle {
+  font-size: 13px;
+}
+
+.musicCard-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 171px 311px 20px;
+    gap: 10px;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 20px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.header-image-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerSaidImage {
+  width: 40px;
+  height: 40px;
+}
+
+.header-album {
+  background-image: url('./icons/header-background.jpg');
+  height: 250px;
+  width: calc(100vw - 220);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position-y: -231px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 500px;
+  padding-top: 80px;
+  width: fit-content;
+}
+
+.profile-style {
+  background-color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 0;
+  border: 1px black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 8px;
+}
+
+.profiledit-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 500px;
+  padding-top: 80px;
+  width: fit-content;
+}
+
+.login-profileEdit {
+  width: 300px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 0;
+  border: 1px black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  outline: 0;
+}
+
+.login-profileEdit::placeholder{
+  text-align: center;
+}
+
+.profile-background {
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+.profile-text-decoration {
+  text-decoration: none;
+  color: black;
+}
+
+.profile-login-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0;
+  border: 1px black;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  background-color: #efee20;
+  margin: auto;
+  margin-top: 30px;
+  color: black;
+}
+
+.profile-login-button:hover {
+  background-color: #c8cc06;
+}
+
+.button-floating {
+  display: none;
+}
+
+.loading-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.style-loading {
+  height: 50px;
+  width: 50px;
+}
+
+.style-loading-pear {
+  width: 100%;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadin {
+  display: flex;
+  justify-content: center;
+}
+
+.loadin  {
+  animation: loadin 0.75s infinite linear;
+}
+
+@keyframes loadin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.checkHeart{
+  cursor: pointer;
+}
+input[type ='checkbox'] { display: none;}
+input[type ='checkbox']:checked+label>svg {
+    animation: preencher;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+@keyframes preencher {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: red;
+    }
+}
+
+@media screen and (max-device-width: 500px) {
+  .page-login {
+    flex-direction: column;
+    justify-content: unset;
+  }
+  .right-container {
+    width: 100%;
+    border-top-right-radius: 40px;
+    padding-top: 40px;
+    border-bottom-left-radius: 0;
+  }
+
+  .left-container {
+    padding-top: 120px;
+  }
+
+  .style-logo {
+    height: 190px;
+    margin-top: -64px;
+    margin-left: 163px;
+  }
+  .welcome-container {
+    margin-bottom: 35px;
+  }
+  .img-preview {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+  }
+
+  .login-button {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    height: 35px;
+  }
+
+  .app-container {
+    flex-direction: column-reverse;
+    position: relative;
+    height: 100vh;
+    justify-content: flex-end;
+  }
+
+  .logo-header-mobile {
+    height: 29px;
+}
+
+  .header-default {
+    height: 200px;
+    width: 100%;
+    background-position-y: center;
+    background-size: unset;
+  }
+
+  .header-album {
+    height: 200px;
+    width: 100%;
+    background-position-y: center;
+    background-size: unset;
+  }
+
+  .album-artist {
+    left: 170px;
+    top: 168px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .album-title {
+    left: 170px;
+    top: 132px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0;
+    overflow: hidden;
+    max-width: 201px;
+  }
+
+  .album-img {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 23px;
+    top: 120px;
+  }
+
+  .album-card {
+    padding: 0;
+    margin-top: 70px;
+    height: calc(100vh - 270px - 70px);
+    overflow: auto;
+    width: min-content;
+  }
+
+  .musicCard-container {
+    grid-template-columns: 88px 200px 14px;
+  }
+
+  .favorites-container {
+    margin-left: 0;
+    height: calc(100vh - 240px - 70px);
+    overflow: auto;
+  }
+
+ .audio-component {
+    width: 206px;
+ }
+
+  .header-container {
+    position: sticky;
+    top: 90%;
+    width: 100%;
+  }
+
+  .header-content {
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .bar-container {
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .img-search {
+    height: 15px;
+    width: 15px;
+}
+
+  .link-decoration {
+    gap: 6px;
+    width: 45px;
+    flex-direction: column;
+    font-size: 11px;
+    font-weight: 500;
+}
+  .header-image-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    flex-direction: column;
+    padding: 5px
+}
+
+  .title-decoration {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+  .headerSaidImage {
+    height: 30px;
+    width: 30px;
+    margin-top: -8px;
+  }
+
+  .size-input-search {
+    width: 200px;
+  }
+
+  .size-button-search {
+    width: 80px;
+  }
+
+  .album-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+  .albumCard-container {
+    padding: 10px;
+  }
+
+  .searchCard-container {
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    gap: 10px 15px;
+    justify-content: center;
+    height: calc(100vh - 269px - 70px);
+    overflow: auto;
+  }
+
+  .result-artist {
+  text-align: center;
+  padding: 23px;
+}
+  .profile-container {
+    padding-left: 0;
+    height: calc(100vh - 280px - 70px);
+    margin: auto;
+    overflow: auto;
+}
+
+  .profile-login-button {
+    margin-bottom: 16px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .login-profileEdit {
+    height: 35px;
+  }
+
+  .login-profileEdit::placeholder {
+    color: black;
+    text-align: center;
+  }
+
+  .profiledit-container {
+    padding-left: 0;
+    height: calc(100vh - 280px - 70px);
+    margin: auto;
+    overflow: auto;
+    width: min-content;
+  }
+
+  .space-search {
+    height: calc(100vh - 200px - 70px);
+  }
+
+  .upload-button {
+    min-height: 35px;
+    background: #a9a7a7;
+    color: white;
+  }
+
+}
