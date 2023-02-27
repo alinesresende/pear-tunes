@@ -28,7 +28,7 @@ class Header extends Component {
   }
 
   handleMobileOrWeb = () => {
-    const mobileMax = 500;
+    const mobileMax = 1200;
     const isMobile = window.innerWidth <= mobileMax;
     this.setState({
       thisMobile: isMobile,

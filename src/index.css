@@ -311,7 +311,7 @@ code {
   display: grid;
   gap: 20px;
   width: fit-content;
-  padding-left: 500px;
+  padding-left: 400px;
   padding-top: 80px;
 }
 
@@ -323,19 +323,19 @@ code {
 
 .album-img {
   border-radius: 10px;
-  width: 180px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 35%);
   height: 180px;
+  left: 350px;
   position: absolute;
-  left: calc(50% - 240px/2 - 193px);
-  top: calc(50% - 260px/2 - 60px);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: 165px;
+  width: 180px;
 }
 
 .album-title {
   position: absolute;
   height: 30px;
-  left: calc(50% - 260px/2 + 40px);
-  top: calc(50% - 30px/2 - 160px);
+  left: 550px;
+  top: 172px;
   background-color: white;
   border-radius: 12px;
   padding: 2px;
@@ -344,8 +344,8 @@ code {
 .album-artist {
   position: absolute;
   height: 21px;
-  left: calc(50% - 260px/2 + 40px);
-  top: calc(50% - 40px/2 - 120px);
+  left: 550px;
+  top: 221px;
   background-color: whitesmoke;
   border-radius: 12px;
   font-weight: 500;
@@ -535,7 +535,7 @@ input[type ='checkbox']:checked+label>svg {
     }
 }
 
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 1200px) {
   .page-login {
     flex-direction: column;
     justify-content: unset;
@@ -628,12 +628,14 @@ input[type ='checkbox']:checked+label>svg {
     margin-top: 70px;
     height: calc(100vh - 270px - 70px);
     overflow: auto;
-    width: min-content;
+    width: 100%;
   }
 
   .musicCard-container {
+    margin: 0px 15px;
     grid-template-columns: 88px 196px 24px;
     place-items: center;
+    padding: 15px 0px;
   }
 
   .favorites-container {
