@@ -70,6 +70,7 @@ class Login extends React.Component {
             name="inputLogin"
             data-testid="login-name-input"
             placeholder="name"
+            autoComplete="off"
             value={ inputLogin }
             onChange={ this.handleChangeLogin }
           />
@@ -78,6 +79,7 @@ class Login extends React.Component {
             type="email"
             name="inputEmail"
             placeholder="e-mail"
+            autoComplete="off"
             value={ inputEmail }
             onChange={ this.handleChangeLogin }
           />
