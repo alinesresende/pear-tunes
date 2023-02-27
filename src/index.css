@@ -601,6 +601,8 @@ input[type ='checkbox']:checked+label>svg {
     top: 168px;
     background-color: white;
     border-radius: 5px;
+    max-width: 201px;
+    overflow: hidden;
   }
 
   .album-title {
