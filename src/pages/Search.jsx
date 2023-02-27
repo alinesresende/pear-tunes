@@ -44,6 +44,7 @@ class Search extends React.Component {
           <div className="search-container">
             <input
               className="size-input-search"
+              autoComplete="off"
               type="name"
               name="inputSearch"
               data-testid="search-artist-input"

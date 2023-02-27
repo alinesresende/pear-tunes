@@ -103,6 +103,7 @@ class ProfileEdit extends React.Component {
                 id="nameEdit"
                 type="text"
                 name="name"
+                autoComplete="off"
                 value={ user.name }
                 onChange={ this.handleNewDados }
               />
@@ -118,6 +119,7 @@ class ProfileEdit extends React.Component {
               <input
                 data-testid="edit-input-email"
                 className="login-profileEdit"
+                autoComplete="off"
                 id="emailEdit"
                 type="email"
                 name="email"
@@ -136,6 +138,7 @@ class ProfileEdit extends React.Component {
               </h5>
               <textarea
                 data-testid="edit-input-description"
+                autoComplete="off"
                 className="login-profileEdit"
                 id="descriptionEdit"
                 name="description"
@@ -152,6 +155,7 @@ class ProfileEdit extends React.Component {
               Upload Image
               <input
                 className="upload-image"
+                autoComplete="off"
                 id="imgLogin"
                 type="file"
                 name="image"
