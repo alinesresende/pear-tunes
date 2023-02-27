@@ -6,7 +6,7 @@ The project is called "PearTunes", a mini application capable of playing songs b
 
 The application was developed with the React Framework and has a ``web`` and ``mobile`` version in order to optimize the user experience when accessed by mobile devices.
 
-## PearTunes features:
+## Features:
 
 ```
 ▪️ Login with email and upload your photo
@@ -16,7 +16,7 @@ The application was developed with the React Framework and has a ``web`` and ``m
 ▪️ View and edit the user's profile.
 ```
 
-## Technologies used:
+## Technologies:
 
 ```
 ▪️ Request and consumption of data from API's
