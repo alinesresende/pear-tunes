@@ -42,10 +42,16 @@ git clone git@github.com:alinesresende/pear-tunes.git
 cd pear-tunes
 ```
 
-## Install the dependencies
+### Install the dependencies
 
 ```
 npm install
+```
+
+### Start the React app in development mode (http://localhost:3000):
+
+```
+npm start
 ```
 
 ## Layout
