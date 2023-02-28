@@ -48,7 +48,7 @@ cd pear-tunes
 npm install
 ```
 
-### Start the React app in development mode (http://localhost:3000):
+### Start the React app in development mode:
 
 ```
 npm start
