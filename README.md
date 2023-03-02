@@ -7,7 +7,7 @@ The project is called "PearTunes", a mini application capable of playing songs b
 The application was developed with the React Framework and has a ``web`` and ``mobile`` version in order to optimize the user experience when accessed by mobile devices.
 
 <details>
- <summary><strong> 🖥️📱 Layout Application</strong></summary><br />
+ <summary><strong>📱 Layout Application</strong></summary><br />
 
 <img src= 'https://user-images.githubusercontent.com/115574024/221586031-8467c15d-71ed-45d7-a2a0-b612cee756aa.png'/>
 
