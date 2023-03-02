@@ -6,6 +6,13 @@ The project is called "PearTunes", a mini application capable of playing songs b
 
 The application was developed with the React Framework and has a ``web`` and ``mobile`` version in order to optimize the user experience when accessed by mobile devices.
 
+<details>
+ <summary><strong> 🖥️📱 Layout Application</strong></summary><br />
+
+<img src= 'https://user-images.githubusercontent.com/115574024/221586031-8467c15d-71ed-45d7-a2a0-b612cee756aa.png'/>
+
+</details>
+
 ## Features:
 
 ```
@@ -28,39 +35,35 @@ The application was developed with the React Framework and has a ``web`` and ``m
 ▪️ Creating links for navigation with the Link component.
 ```
 
-## Do you want to access the application?
+## ⚡ Do you want to access the application?
 
-### Clone this repository
+#### 1. Clone this repository
 
 ```
 git clone git@github.com:alinesresende/pear-tunes.git
 ```
 
-### Navigate to the project directory
+#### 2. Navigate to the project directory
 
 ```
 cd pear-tunes
 ```
 
-### Install the dependencies
+#### 3. Install the dependencies
 
 ```
 npm install
 ```
 
-### Start the React app in development mode:
+#### 4. Start the React app in development mode
 
 ```
 npm start
 ```
 
-## Layout
-
-![Captura de tela 2023-02-27 102402](https://user-images.githubusercontent.com/115574024/221586031-8467c15d-71ed-45d7-a2a0-b612cee756aa.png)
-
 > Image credits: Oil Spill, Stephen MacLeod and Allan trolle.
 
-Deploy: https://pear-tunes.vercel.app/
+> Deploy: https://pear-tunes.vercel.app/
 
 
 
